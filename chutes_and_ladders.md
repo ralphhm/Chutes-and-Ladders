@@ -29,7 +29,7 @@ and land on the last square exactly. If you're on the second to last square and 
 For the purposes of the questions to follow, boards will be represented in the following text format.
 The first line will be three integers, `W` `H` and `T`, separated by a space, where the first is the **w**idth of the board, the second is the **h**eight, and the third is the **t**otal number of chutes _and_ ladders. Following that will be `T`
 lines representing the chutes and the ladders. The first character will be `C` or `L` (for chute and ladder respectively)
-and then two integers `A` and `B`, `A < B`, where `A` is the bottom of the chute or ladder and `B` is the top.
+and then two integers `A` and `B`, `1 <= A < B <= (W x H)`, where `A` is the bottom of the chute or ladder and `B` is the top.
 
 For Example -- the board pictured above would be represented like...
 ```
@@ -55,7 +55,8 @@ C 78 98
 L 80 100
 ```
 
-[`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards.
+[`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards. 
+You can assume that each of these boards is valid in that there will never be a single space containing both a chute top and a ladder bottom (as well as the other constraints set above)
 
 ### Is it solvable?
 
