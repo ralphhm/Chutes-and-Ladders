@@ -55,7 +55,7 @@ C 78 98
 L 80 100
 ```
 
-`[chutes_and_ladders.txt]`(https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards.
+[`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards.
 
 ### Is it solvable?
 
