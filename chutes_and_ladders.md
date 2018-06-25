@@ -22,8 +22,6 @@ on your first turn, you'd end up on square 14. Conversely, if you land at the to
 would immediately move your piece to the bottom of that chute. You win when you reach the last square but you must roll
 and land on the last square exactly. If you're on the second to last square and you roll a 2 or higher you pass the turn.
 
-# Questions
-
 ## Representing a Board
 
 For the purposes of the questions to follow, boards will be represented in the following text format.
@@ -58,12 +56,22 @@ L 80 100
 [`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards. 
 You can assume that each of these boards is valid in that there will never be a single space containing both a chute top and a ladder bottom (as well as the other constraints set above)
 
-### Is it solvable?
+## Questions
+
+### 1) Is it solvable?
 
 Given the above representation of a board come up with an algorithm to determine if a board is solveable (i.e.
 the game can be won). How many boards in `chutes_and_ladders.txt` are unsolvable?
 
-### Minimum Number of Rolls
+### 2) Minimum Number of Rolls
 
 The minimum number of rolls required to win given the board represented above is 7. What is the _sum_ of
 the minimum number of rolls required to win on each solvable board in `chutes_and_ladders.txt`?
+
+### 3) Expected Number of Rolls to Win
+
+The average number of rolls needed to win in the board above is about 36.2 -- What is sum of the average number of rolls needed to win each game in `chutes_and_ladders.txt`?
+
+### 4) Cheating
+
+If you were playing using the board above and given the opportunity to weight your die -- how would you decide to weight it to give yourself the best chance of winning? How much better is your weighting compared to a fairly weighted die?
