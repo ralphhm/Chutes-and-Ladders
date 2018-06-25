@@ -22,6 +22,8 @@ on your first turn, you'd end up on square 14. Conversely, if you land at the to
 would immediately move your piece to the bottom of that chute. You win when you reach the last square but you must roll
 and land on the last square exactly. If you're on the second to last square and you roll a 2 or higher you pass the turn.
 
+Also, for the purposes of these questions, if the top of a ladder is the same as the top of a slide or the bottom of a slide is the bottom of a ladder -- you would only take one ladder/slide on that turn.
+
 ## Representing a Board
 
 For the purposes of the questions to follow, boards will be represented in the following text format.
