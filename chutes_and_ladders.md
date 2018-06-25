@@ -53,7 +53,7 @@ C 78 98
 L 80 100
 ```
 
-[`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/f89b72c4bb7fcf6e3eaff29629b3367967aff329/chutes_and_ladders.txt) contains 10,000 boards. 
+[`chutes_and_ladders.txt`](https://gist.githubusercontent.com/zconnelly/a570fd44a9984ea7fa5f9a58e6a29181/raw/e385d47889bd2b585180c242a2c020b6b866cc36/chutes_and_ladders.txt) contains 10,001 boards. 
 You can assume that each of these boards is valid in that there will never be a single space containing both a chute top and a ladder bottom (as well as the other constraints set above)
 
 ## Questions
