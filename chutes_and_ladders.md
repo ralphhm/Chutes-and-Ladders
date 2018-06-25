@@ -70,8 +70,8 @@ the minimum number of rolls required to win on each solvable board in `chutes_an
 
 ### 3) Expected Number of Rolls to Win
 
-The average number of rolls needed to win in the board above is about 36.2 -- What is sum of the average number of rolls needed to win each game in `chutes_and_ladders.txt`?
+The average number of rolls needed to win in the board above is about 36.2 -- What is _sum_ of the average number of rolls needed to win each solvable board in `chutes_and_ladders.txt`?
 
 ### 4) Cheating
 
-If you were playing using the board above and given the opportunity to weight your die -- how would you decide to weight it to give yourself the best chance of winning? How much better is your weighting compared to a fairly weighted die?
+If you were playing using the board pictured above and given the opportunity to weight your die -- how would you decide to weight it to give yourself the best chance of winning? How much better is your weighting compared to a fairly weighted die?
